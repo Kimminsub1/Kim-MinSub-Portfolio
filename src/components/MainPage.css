@@ -1,0 +1,46 @@
+/* src/components/MainPage.css */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.kms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 50px;
+}
+
+.kms-content {
+  flex: 1;
+}
+
+.kms-image {
+  flex: 1;
+  max-width: 300px;
+}
+
+.kms-image img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about-me, .contact {
+  padding: 2rem;
+  margin-top: 1rem;
+}
