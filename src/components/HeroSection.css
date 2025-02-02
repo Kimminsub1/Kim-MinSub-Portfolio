@@ -9,6 +9,22 @@ section {
   align-items: center;
   justify-content: center;
   scroll-snap-align: start;
+  gap: 20px;
+  padding: 5%;
+}
+
+.kms-image {
+  overflow: hidden;
+  border-radius: 70%; /* 원형으로 만들기 위한 값 (타원형의 경우 적절히 조절) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kms-image img {
+  width: 100%; /* 이미지 너비는 부모 컨테이너에 맞춰짐 */
+  height: auto;
+  object-fit: cover; /* 이미지 비율을 유지하며 컨테이너에 맞춤 */
 }
 
 /* 네비게이션 버튼 스타일 */
@@ -31,7 +47,7 @@ section {
 }
 
 .nav-buttons .active {
-  background-color: gray;
+  background-color: blue;
   color: white;
 }
 .about-me {
