@@ -1,16 +1,20 @@
 .projects-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center; /* 전체 정렬은 가운데 유지 */
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
 
 .projects-container h2 {
-  text-align: left;
-  width: 100%;
+  align-self: flex-start; /* h2만 왼쪽 정렬 */
   margin-bottom: 20px;
+}
+
+.projects-wrapper {
+  display: flex;
+  width: 100%;
 }
 
 .projects-sidebar {
