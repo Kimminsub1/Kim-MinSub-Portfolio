@@ -16,21 +16,22 @@
   display: flex;
   width: 100%;
 }
-
 .projects-sidebar {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex: 1;
+  flex-direction: row;  /* 가로 정렬 */
+  justify-content: center;
+  gap: 10px;  /* 버튼 간격 조절 */
+  margin-bottom: 20px;
 }
 
 .projects-sidebar button {
-  padding: 10px;
+  padding: 10px 15px;
   border: none;
   background-color: #ddd;
   cursor: pointer;
-  text-align: left;
   font-size: 16px;
+  transition: background 0.3s;
+  border-radius: 5px;
 }
 
 .projects-sidebar button.active {
@@ -53,7 +54,9 @@
 }
 
 .project-item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+  width: 100%;  /* 부모 컨테이너에 맞춤 */
+  max-width: 500px;  /* 최대 너비 설정 */
+  height: 300px;  /* 고정 높이 설정 */
+  object-fit: cover;  /* 이미지 비율 유지하며 잘림 방지 */
+  border-radius: 10px;  /* 둥근 모서리 적용 (선택사항) */
 }
