@@ -18,13 +18,25 @@ const HeroSection = () => {
         <h2>연락하기</h2>
         <p>저에게 연락하고 싶으시다면 다음 방법을 이용해주세요:</p>
         <ul>
-          <li>연락처: <span>010-7455-8653</span></li>
-          <li>이메일: <span>awdx303@gmail.com</span></li>
-          <li>GitHub: <a href="https://kimminsub1.github.io/MinSub-Portpolio/">https://kimminsub1.github.io/MinSub-Portpolio/</a></li>
+          <li>
+            연락처: <span>010-7455-8653</span>
+          </li>
+          <li>
+            이메일: <span>awdx303@gmail.com</span>
+          </li>
+          <li>
+            GitHub:{" "}
+            <a href="https://kimminsub1.github.io/MinSub-Portpolio/">
+              https://kimminsub1.github.io/MinSub-Portpolio/
+            </a>
+          </li>
         </ul>
       </div>
       <div className="kms-image">
-        <img src="/public/img/kms.jpg" alt="프로필 이미지" />
+        <img
+          src={`${process.env.PUBLIC_URL}/img/kms.jpg`}
+          alt="프로필 이미지"
+        />
       </div>
     </section>
   );
