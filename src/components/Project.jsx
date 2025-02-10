@@ -4,7 +4,7 @@ import "./Project.css";
 const Projects = () => {
   // 선택된 탭을 추적하는 상태
   const [activeTab, setActiveTab] = useState("Project1");
- 
+
   return (
     <div className="projects-container">
       <h2>My Projects</h2>
