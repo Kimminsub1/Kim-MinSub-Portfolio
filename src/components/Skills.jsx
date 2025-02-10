@@ -3,7 +3,7 @@ import "./Skills.css";
 
 const Skills = () => {
   // 선택된 탭을 추적하는 상태
-  const [activeTab, setActiveTab] = useState("BackEnd");
+  const [activeTab, setActiveTab] = useState("Language");
 
   return (
     <div className="appeal">
