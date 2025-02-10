@@ -5,7 +5,7 @@
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
-}
+} 
 
 .projects-container h2 {
   align-self: flex-start; /* h2만 왼쪽 정렬 */
