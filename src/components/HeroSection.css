@@ -31,8 +31,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px; /* 가로 길이 */
-  height: 200px; /* 세로 길이 (줄여서 타원처럼 보이게) */
+  width: 200px; /* 가로 길이 */
+  height: 300px; /* 세로 길이 (줄여서 타원처럼 보이게) */
 }
 
 .kms-image img {
