@@ -36,7 +36,6 @@ const Projects = () => {
         </button>
       </div>
 
-
       {/* 프로젝트 내용 */}
       <div className="projects-content">
         {activeTab === "Project1" && (
