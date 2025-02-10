@@ -9,8 +9,8 @@ function App() {
   const [isScrolling, setIsScrolling] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
 
-  const sections = [HeroSection, Skills];
-  const sectionNames = ["Home", "Skills"]; // 각 섹션에 대응하는 이름
+  const sections = [HeroSection, Skills, Project];
+  const sectionNames = ["Home", "Skills", "Project"]; // 각 섹션에 대응하는 이름
   const totalSections = sections.length;
 
   const scrollToSection = (index) => {
