@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar"; // 네비게이션 추가
 import HeroSection from "./HeroSection";
+import Skills from "./Skills";
 import Project from "./Project";
 import "./MainPage.css";
 
