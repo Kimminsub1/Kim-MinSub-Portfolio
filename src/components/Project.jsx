@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Project.css";
 
 const Projects = () => {
   // 선택된 탭을 추적하는 상태
