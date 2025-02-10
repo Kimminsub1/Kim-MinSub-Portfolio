@@ -10,6 +10,7 @@ const Projects = () => {
       <h2>My Projects</h2>
 
       {/* 탭 메뉴 */}
+      
       <div className="projects-sidebar">
         <button
           className={activeTab === "Project1" ? "active" : ""}
