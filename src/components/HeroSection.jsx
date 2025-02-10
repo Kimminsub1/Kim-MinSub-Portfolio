@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="kms-section">
       <div className="kms-content">
-        <h2>안녕하세요.</h2>
+        <h1>안녕하세요.</h1>
         <h2>백엔드 개발자가 되고 싶은 김민섭입니다.</h2>
         <h3>
           저는 주로 Java와 Spring Framework를 사용하여 백엔드 서비스를 개발하고
