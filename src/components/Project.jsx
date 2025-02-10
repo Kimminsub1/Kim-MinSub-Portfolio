@@ -65,7 +65,7 @@ const Projects = () => {
         )}
         {activeTab === "Project4" && (
           <div className="project-item">
-            <img src="img/kokeetea.jpg" alt="프로젝트 4" />
+            <img src="img/kokeetea.png" alt="프로젝트 4" />
             <h3>Cafe_KokeeTea</h3>
             <p>React와 Spring Boot를 활용한 풀스택 웹 애플리케이션</p>
           </div>
