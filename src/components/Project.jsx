@@ -8,19 +8,31 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <h2>My Projects</h2>
-      
+
       {/* 탭 메뉴 */}
       <div className="projects-sidebar">
-        <button className={activeTab === "Project1" ? "active" : ""} onClick={() => setActiveTab("Project1")}>
-        Usinsa
+        <button
+          className={activeTab === "Project1" ? "active" : ""}
+          onClick={() => setActiveTab("Project1")}
+        >
+          Usinsa
         </button>
-        <button className={activeTab === "Project2" ? "active" : ""} onClick={() => setActiveTab("Project2")}>
-        SmartPhone Kiosk
+        <button
+          className={activeTab === "Project2" ? "active" : ""}
+          onClick={() => setActiveTab("Project2")}
+        >
+          SmartPhone Kiosk
         </button>
-        <button className={activeTab === "Project3" ? "active" : ""} onClick={() => setActiveTab("Project3")}>
-        Sagwasangjum
+        <button
+          className={activeTab === "Project3" ? "active" : ""}
+          onClick={() => setActiveTab("Project3")}
+        >
+          Sagwasangjum
         </button>
-        <button className={activeTab === "Project4" ? "active" : ""} onClick={() => setActiveTab("Project4")}>
+        <button
+          className={activeTab === "Project4" ? "active" : ""}
+          onClick={() => setActiveTab("Project4")}
+        >
           프로젝트 3
         </button>
       </div>
@@ -43,7 +55,10 @@ const Projects = () => {
         )}
         {activeTab === "Project3" && (
           <div className="project-item">
-            <img src="img/project_sagwasangjum.png" alt="project_sagwasangjum" />
+            <img
+              src="img/project_sagwasangjum.png"
+              alt="project_sagwasangjum"
+            />
             <h3>전자자제품 쇼핑몰</h3>
             <p>Servlet과 Apache를 사용하여 제작한 웹사이트</p>
           </div>
