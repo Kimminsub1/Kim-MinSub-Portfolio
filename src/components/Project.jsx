@@ -8,7 +8,6 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <h2>My Projects</h2>
-
       {/* 탭 메뉴 */}
       <div className="projects-sidebar">
         <button
