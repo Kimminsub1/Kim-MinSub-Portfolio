@@ -27,16 +27,13 @@ const HeroSection = () => {
           </li>
           <li>
             GitHub:{" "}
-            <p>
-            https://github.com/Kimminsub1/Kim-MinSub-Portfolio.git
-            </p>
+            <p>https://github.com/Kimminsub1/Kim-MinSub-Portfolio.git</p>
           </li>
         </ul>
       </div>
       <div className="kms-image">
-        <img src="/img/kms.jpg" alt="프로필 이미지" />
+        <img src="/MinSub-Portpolio/img/kms.jpg" alt="프로필 이미지" />
       </div>
-      
     </section>
   );
 };
