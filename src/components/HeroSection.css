@@ -27,19 +27,20 @@ section {
 
 .kms-image {
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 50%; /* 원형 유지 */
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 250px;
-  height: 250px;
+  width: 300px; /* 가로 길이 */
+  height: 200px; /* 세로 길이 (줄여서 타원처럼 보이게) */
 }
 
 .kms-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
+
 
 
 /* 네비게이션 버튼 스타일 */
