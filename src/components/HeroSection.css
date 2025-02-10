@@ -9,7 +9,8 @@ section {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   min-height: 100vh;  /* 최소 높이 100vh, 내용이 많으면 자동 확장 */
   flex-wrap: wrap; /* 내용이 많으면 줄 바꿈 */
 }
