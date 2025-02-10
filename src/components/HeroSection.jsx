@@ -3,7 +3,7 @@ import "./HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="kms-section">
       <div className="kms-content">
         <h1>안녕하세요.</h1>
         <h1>백엔드 개발자가 되고 싶은 김민섭입니다.</h1>
