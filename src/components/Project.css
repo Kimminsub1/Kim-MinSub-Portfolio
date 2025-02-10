@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center; /* 전체 정렬은 가운데 유지 */
-  max-width: 100vw;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
 } 
