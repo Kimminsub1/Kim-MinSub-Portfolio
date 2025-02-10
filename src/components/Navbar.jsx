@@ -11,13 +11,22 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <button className={activeSection === "hero" ? "active" : ""} onClick={() => scrollToSection("hero")}>
+      <button
+        className={activeSection === "hero" ? "active" : ""}
+        onClick={() => scrollToSection("hero")}
+      >
         홈
       </button>
-      <button className={activeSection === "skills" ? "active" : ""} onClick={() => scrollToSection("skills")}>
+      <button
+        className={activeSection === "skills" ? "active" : ""}
+        onClick={() => scrollToSection("skills")}
+      >
         기술
       </button>
-      <button className={activeSection === "projects" ? "active" : ""} onClick={() => scrollToSection("projects")}>
+      <button
+        className={activeSection === "projects" ? "active" : ""}
+        onClick={() => scrollToSection("projects")}
+      >
         Project
       </button>
     </nav>
