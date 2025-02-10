@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
+import Project from "./components/Project";
 import "./components/MainPage.css";
 
 function App() {
@@ -79,6 +80,9 @@ function App() {
       </section>
       <section id="skills">
         <Skills />
+      </section>
+      <section id="projects">
+        <Project />
       </section>
     </div>
   );

@@ -17,6 +17,9 @@ const Navbar = () => {
       <button className={activeSection === "skills" ? "active" : ""} onClick={() => scrollToSection("skills")}>
         기술
       </button>
+      <button className={activeSection === "projects" ? "active" : ""} onClick={() => scrollToSection("projects")}>
+        Project
+      </button>
     </nav>
   );
 };
