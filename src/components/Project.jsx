@@ -28,21 +28,21 @@ const Projects = () => {
       <div className="projects-content">
         {activeTab === "Project1" && (
           <div className="project-item">
-            <img src="/img/project_usinsa.png" alt="프로젝트 1" />
+            <img src="/img/project_usinsa.png" alt="project_usinsa" />
             <h3>남성의류 쇼핑몰 웹사이트</h3>
             <p>JAVA와 MySQL을 이용하여 개발한 쇼핑몰 프로젝트</p>
           </div>
         )}
         {activeTab === "Project2" && (
           <div className="project-item">
-            <img src="/img/project_kiosk.png" alt="프로젝트 2" />
+            <img src="/img/project_kiosk.png" alt="project_kiosk" />
             <h3>스마트폰 키오스크</h3>
             <p>JAVA와 MySQL을 이용하여 개발한 키오스크 프로젝트</p>
           </div>
         )}
         {activeTab === "Project3" && (
           <div className="project-item">
-            <img src="/img/project_sagwasangjum.png" alt="프로젝트 3" />
+            <img src="/img/project_sagwasangjum.png" alt="project_sagwasangjum" />
             <h3>전자자제품 쇼핑몰</h3>
             <p>Servlet과 Apache를 사용하여 제작한 웹사이트</p>
           </div>
