@@ -20,11 +20,11 @@ const HeroSection = () => {
         <ul>
           <li>연락처: <span>010-7455-8653</span></li>
           <li>이메일: <span>awdx303@gmail.com</span></li>
-          <li>GitHub: <a href="https://github.com/Kimminsub1/Kim-MinSub-Portfolio.git">GitHub 링크</a></li>
+          <li>GitHub: <a href="https://kimminsub1.github.io/MinSub-Portpolio/">https://kimminsub1.github.io/MinSub-Portpolio/</a></li>
         </ul>
       </div>
       <div className="kms-image">
-        <img src="/img/kms.jpg" alt="프로필 이미지" />
+        <img src="./img/kms.jpg" alt="프로필 이미지" />
       </div>
     </section>
   );
