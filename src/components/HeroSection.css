@@ -8,24 +8,38 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  scroll-snap-align: start;
   gap: 20px;
   padding: 5%;
+  min-height: 100vh;  /* 최소 높이 100vh, 내용이 많으면 자동 확장 */
+  flex-wrap: wrap; /* 내용이 많으면 줄 바꿈 */
+}
+
+.kms-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  text-align: left;
+  line-height: 1.6;
+  white-space: normal;
+  word-break: keep-all;
 }
 
 .kms-image {
   overflow: hidden;
-  border-radius: 70%; /* 원형으로 만들기 위한 값 (타원형의 경우 적절히 조절) */
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 250px;
+  height: 250px;
 }
 
 .kms-image img {
-  width: 100%; /* 이미지 너비는 부모 컨테이너에 맞춰짐 */
+  width: 100%;
   height: auto;
-  object-fit: cover; /* 이미지 비율을 유지하며 컨테이너에 맞춤 */
+  object-fit: cover;
 }
+
 
 /* 네비게이션 버튼 스타일 */
 .nav-buttons {

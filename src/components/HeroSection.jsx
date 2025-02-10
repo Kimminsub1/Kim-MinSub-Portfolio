@@ -19,20 +19,13 @@ const HeroSection = () => {
         <h2>연락하기</h2>
         <p>저에게 연락하고 싶으시다면 다음 방법을 이용해주세요:</p>
         <ul>
-          <li>
-            연락처: <p>010-7455-8653</p>
-          </li>
-          <li>
-            이메일: <p>awdx303@gmail.com</p>
-          </li>
-          <li>
-            GitHub:{" "}
-            <p>https://github.com/Kimminsub1/Kim-MinSub-Portfolio.git</p>
-          </li>
+          <li>연락처: <span>010-7455-8653</span></li>
+          <li>이메일: <span>awdx303@gmail.com</span></li>
+          <li>GitHub: <a href="https://github.com/Kimminsub1/Kim-MinSub-Portfolio.git">GitHub 링크</a></li>
         </ul>
       </div>
       <div className="kms-image">
-        <img src="/MinSub-Portpolio/public/img/kms.jpg" alt="프로필 이미지" />
+        <img src="/img/kms.jpg" alt="프로필 이미지" />
       </div>
     </section>
   );
