@@ -33,10 +33,7 @@ const HeroSection = () => {
         </ul>
       </div>
       <div className="kms-image">
-        <img
-          src={`${process.env.PUBLIC_URL}/img/kms.jpg`}
-          alt="프로필 이미지"
-        />
+        <img src="img/kms.jpg" alt="프로필 이미지" />
       </div>
     </section>
   );
