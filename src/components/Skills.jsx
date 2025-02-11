@@ -9,27 +9,7 @@ const Skills = () => {
     <div className="appeal">
       <div className="about-me-text">
         <h2>About Me</h2>
-        <p>
-          국비 지원 교육을 통해 자바 개발자 양성과정과 스프링부트
-          풀스택 개발 과정을 이수하면서 실무 기반 기술을 보강하고, 프로젝트
-          경험을 쌓았습니다.
-        </p>
-        <p>
-          참여한 프로젝트 중 JAVA와 DB를 활용한 의류 쇼핑몰 웹사이트를 팀원들과
-          협력하여 개발하였고, 이를 통해 개발에서 협업의 중요성을 깨달았습니다.
-          이후, Servlet을 이용한 전자제품 쇼핑몰을 개발하면서 프로젝트를
-          완성하는 성취감을 느꼈고, 개발의 즐거움을 더욱 알게 되었습니다.
-        </p>
-        <p>
-          현재는 클라우드 기술에 관심을 가지고 있으며, 클라우드 관련 자격증
-          취득을 목표로 공부 중입니다. 저는 팀원들과 원활하게 협업하며, 업무에
-          적극적으로 적응하여 회사에 기여하고 성장할 수 있는 개발자가 되고자
-          합니다.
-        </p>
-        <p>
-          주요 기술 스택: Java, Spring Boot, Servlet, Apache, MySQL, HTML, CSS,
-          JavaScript 등
-        </p>
+        
       </div>
 
       <div className="skills-container">
