@@ -20,7 +20,7 @@
 .projects-sidebar {
   display: flex;
   flex-direction: row;  /* 가로 정렬 */
-  align-self: flex-start; /* h2만 왼쪽 정렬 */
+  align-self: flex-start;
   justify-content: center;
   gap: 10px;  /* 버튼 간격 조절 */
   margin-bottom: 20px;
