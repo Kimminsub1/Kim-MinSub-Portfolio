@@ -9,21 +9,26 @@ const Projects = () => {
   // 프로젝트별 이미지 배열
   const projectImages = {
     Project1: [
-      "/MinSub-Portpolio/img/project_usinsa1.png",
-      "/MinSub-Portpolio/img/project_usinsa2.png",
-      "/MinSub-Portpolio/img/project_usinsa3.png",
+      "/MinSub-Portpolio/img/project_usinsa.png",
+      "/MinSub-Portpolio/img/usinsa_login.png",
+      "/MinSub-Portpolio/img/usinsa_product.png",
+      "/MinSub-Portpolio/img/usinsa_signup.png",
+      "/MinSub-Portpolio/img/usinsa_userinfo.png",
     ],
     Project2: [
-      "/MinSub-Portpolio/img/project_kiosk1.png",
-      "/MinSub-Portpolio/img/project_kiosk2.png",
+      "/MinSub-Portpolio/img/project_kiosk.png",
+      "/MinSub-Portpolio/img/kiosk_product.png",
+      "/MinSub-Portpolio/img/kiosk_product_detail.png",
+      "/MinSub-Portpolio/img/kiosk_cart.png",
+      "/MinSub-Portpolio/img/kiosk_order.png",
     ],
     Project3: [
-      "/MinSub-Portpolio/img/project_sagwasangjum1.png",
-      "/MinSub-Portpolio/img/project_sagwasangjum2.png",
+      "/MinSub-Portpolio/img/project_sagwasangjum.png",
+      "/MinSub-Portpolio/img/project_sagwasangjum.png",
     ],
     Project4: [
-      "/MinSub-Portpolio/img/kokeetea1.png",
-      "/MinSub-Portpolio/img/kokeetea2.png",
+      "/MinSub-Portpolio/img/kokeetea.png",
+      "/MinSub-Portpolio/img/kokeetea.png",
     ],
   };
 
