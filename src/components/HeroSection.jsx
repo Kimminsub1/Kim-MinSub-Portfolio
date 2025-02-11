@@ -7,7 +7,8 @@ const HeroSection = () => {
       <div className="kms-content">
         <h1>안녕하세요.</h1>
         <h2>주니어 백엔드 개발자 김민섭입니다.</h2>
-
+        <h2>학력</h2>
+        
         <h2>Contact me</h2>
         <ul>
           <li>
