@@ -62,3 +62,38 @@
   object-fit: cover;  /* 이미지 비율 유지하며 잘림 방지 */
   border-radius: 10px;  /* 둥근 모서리 적용 (선택사항) */
 }
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
