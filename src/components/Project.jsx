@@ -30,7 +30,6 @@ const Projects = () => {
     ],
     Project4: [
       "img/kokeetea.png",
-      "img/kokeetea.png",
     ],
   };
 
