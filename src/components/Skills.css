@@ -1,7 +1,7 @@
 .appeal {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   justify-content: space-between; /* 이 부분은 그대로 */
   padding: 20px;
 }

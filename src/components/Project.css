@@ -1,4 +1,5 @@
 .projects-container { 
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center; /* 전체 정렬은 가운데 유지 */
@@ -19,6 +20,7 @@
 .projects-sidebar {
   display: flex;
   flex-direction: row;  /* 가로 정렬 */
+  text-align: left;
   justify-content: center;
   gap: 10px;  /* 버튼 간격 조절 */
   margin-bottom: 20px;
