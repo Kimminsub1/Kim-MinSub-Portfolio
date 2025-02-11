@@ -24,7 +24,9 @@ const Projects = () => {
     ],
     Project3: [
       "img/project_sagwasangjum.png",
-      "img/project_sagwasangjum.png",
+      "img/sagwasangjum_product.png",
+      "img/sagwasangjum_product_detail.png",
+      "img/sagwasangjum_product_category.png",
     ],
     Project4: [
       "img/kokeetea.png",
