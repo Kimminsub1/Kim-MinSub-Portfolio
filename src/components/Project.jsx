@@ -107,23 +107,24 @@ const Projects = () => {
               </button>
             </div>
             <h3>
-              {activeTab === "Project1"
-                ? "남성의류 쇼핑몰 웹사이트"
-                : activeTab === "Project2"
-                ? "스마트폰 키오스크"
-                : activeTab === "Project3"
-                ? "전자제품 쇼핑몰"
-                : "Cafe_KokeeTea"}
-            </h3>
-            <p>
-              {activeTab === "Project1"
-                ? "JAVA와 MySQL을 이용하여 개발한 쇼핑몰 프로젝트"
-                : activeTab === "Project2"
-                ? "JAVA와 MySQL을 이용하여 개발한 키오스크 프로젝트"
-                : activeTab === "Project3"
-                ? "Servlet과 Apache를 사용하여 제작한 웹사이트"
-                : "React와 Spring Boot를 활용한 풀스택 웹 애플리케이션"}
-            </p>
+  {activeTab === "Project1"
+    ? "남성 의류 쇼핑몰 웹사이트"
+    : activeTab === "Project2"
+    ? "스마트폰 키오스크 시스템"
+    : activeTab === "Project3"
+    ? "전자제품 쇼핑몰 웹사이트"
+    : "카페 주문 웹 애플리케이션"}
+</h3>
+<p>
+  {activeTab === "Project1"
+    ? "Java와 MySQL을 활용하여 개발한 남성 의류 쇼핑몰 웹사이트입니다."
+    : activeTab === "Project2"
+    ? "Java와 MySQL을 이용해 제작한 스마트폰 기반 키오스크 주문 시스템입니다."
+    : activeTab === "Project3"
+    ? "Servlet과 Apache를 사용하여 제작한 전자제품 쇼핑몰 웹사이트입니다."
+    : "React와 Spring Boot를 활용한 카페 주문 웹 애플리케이션입니다."}
+</p>
+
           </div>
         )}
       </div>

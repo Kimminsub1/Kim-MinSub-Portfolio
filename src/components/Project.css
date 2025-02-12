@@ -1,37 +1,36 @@
+/* 📌 프로젝트 전체 컨테이너 */
 .projects-container { 
   width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* 전체 정렬은 가운데 유지 */
-  width: 100%;
+  align-items: center;
+  height: 100vh;
   margin: 0 auto;
   padding: 20px;
-} 
+}
 
+/* 📌 타이틀 */
 .projects-container h2 {
-  align-self: flex-start; /* h2만 왼쪽 정렬 */
+  align-self: flex-start;
   margin-bottom: 20px;
+  font-size: 2rem;
 }
 
-.projects-wrapper {
-  display: flex;
-  width: 100%;
-}
+/* 📌 탭 버튼 */
 .projects-sidebar {
   display: flex;
-  flex-direction: row;  /* 가로 정렬 */
-  align-self: flex-start;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;  /* 버튼 간격 조절 */
+  gap: 10px;
   margin-bottom: 20px;
 }
 
 .projects-sidebar button {
-  padding: 10px 15px;
+  padding: 12px 18px;
   border: none;
   background-color: #ddd;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px; /* 🔹 기본 폰트 크기 */
   transition: background 0.3s;
   border-radius: 5px;
 }
@@ -41,6 +40,7 @@
   color: white;
 }
 
+/* 📌 프로젝트 내용 */
 .projects-content {
   display: flex;
   flex-direction: column;
@@ -55,14 +55,26 @@
   gap: 10px;
 }
 
-.project-item img {
-  width: 100%;  /* 부모 컨테이너에 맞춤 */
-  max-width: 500px;  /* 최대 너비 설정 */
-  height: 300px;  /* 고정 높이 설정 */
-  object-fit: cover;  /* 이미지 비율 유지하며 잘림 방지 */
-  border-radius: 10px;  /* 둥근 모서리 적용 (선택사항) */
+.project-item h3 {
+  font-size: 1.8rem;
 }
 
+.project-item p {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+/* 📌 이미지 스타일 */
+.project-item img {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* 📌 이미지 슬라이더 */
 .image-slider {
   position: relative;
   width: 100%;
@@ -90,10 +102,81 @@
   cursor: pointer;
 }
 
-.prev-btn {
-  left: 0;
+.prev-btn { left: 0; }
+.next-btn { right: 0; }
+
+/* 📌 반응형 - 태블릿 */
+@media (max-width: 1024px) {
+  .projects-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .projects-sidebar {
+    justify-content: center;
+  }
+
+  .projects-sidebar button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .project-item h3 {
+    font-size: 1.6rem;
+  }
+
+  .project-item p {
+    font-size: 1.1rem;
+  }
+
+  .project-item img {
+    max-width: 400px;
+    height: 250px;
+  }
 }
 
-.next-btn {
-  right: 0;
+/* 📌 반응형 - 모바일 */
+@media (max-width: 768px) {
+  .projects-sidebar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects-sidebar button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .project-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-item p {
+    font-size: 1rem;
+  }
+
+  .project-item img {
+    max-width: 300px;
+    height: 200px;
+  }
+}
+
+/* 📌 반응형 - 작은 모바일 */
+@media (max-width: 480px) {
+  .projects-sidebar button {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .project-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-item p {
+    font-size: 0.9rem;
+  }
+
+  .project-item img {
+    max-width: 250px;
+    height: 180px;
+  }
 }

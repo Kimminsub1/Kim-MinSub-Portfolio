@@ -1,38 +1,25 @@
-.main-container {
+/* 📌 전체 레이아웃 */
+.kms-section {
+  position: relative;
+  width: 90%; /* 💡 기존 80% → 90%로 넓힘 */
   height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
-
-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 200px;
-  padding-left: 5%;
-  padding-right: 5%;
-  min-height: 100vh;  /* 최소 높이 100vh, 내용이 많으면 자동 확장 */
-  flex-wrap: wrap; /* 내용이 많으면 줄 바꿈 */
-}
-
-.kms-content {
-  display: flex;
   flex-direction: column;
-  max-width: 600px;
-  text-align: left;
-  line-height: 1.6;
-  white-space: normal;
-  word-break: keep-all;
+  overflow: hidden;
+  padding: 20px;
 }
 
+/* 📌 배경 이미지 */
 .kms-image {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 70%;
   overflow: hidden;
-  border-radius: 5%; /* 원형 유지 */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px; /* 가로 길이 */
-  height: 500px; /* 세로 길이 (줄여서 타원처럼 보이게) */
+  border-radius: 5%;
 }
 
 .kms-image img {
@@ -41,36 +28,91 @@ section {
   object-fit: cover;
 }
 
-
-
-/* 네비게이션 버튼 스타일 */
-.nav-buttons {
-  position: fixed;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+/* 📌 타이틀 & 내용 */
+.kms-title {
+  position: relative;
+  text-align: center;
+  max-width: 85%; /* 💡 기존 80% → 85%로 조정 */
+  margin-top: 10%;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.nav-buttons button {
-  background-color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
+.kms-title h1 {
+  font-size: 2.5rem;
 }
 
-.nav-buttons .active {
-  background-color: blue;
-  color: white;
+.kms-title h2 {
+  font-size: 1.8rem;
 }
-.about-me {
-  max-width: 800px; /* 최대 너비 설정 */
-  margin: 0 auto; /* 가운데 정렬 */
-  line-height: 1.6; /* 줄 간격 조정 */
-  text-align: left; /* 좌측 정렬 */
-  white-space: normal; /* 자동 줄바꿈 허용 */
-  word-break: keep-all; /* 단어가 부자연스럽게 끊기지 않도록 설정 */
+
+/* 📌 연락처 */
+.kms-contact {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/* 📌 반응형 - 태블릿 */
+@media (max-width: 1024px) {
+  .kms-title {
+    max-width: 90%;
+  }
+
+  .kms-title h1 {
+    font-size: 2rem;
+  }
+
+  .kms-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .kms-title ul li {
+    font-size: 1.2rem;
+  }
+}
+
+/* 📌 반응형 - 모바일 */
+@media (max-width: 768px) {
+  .kms-section {
+    flex-direction: column;
+  }
+
+  .kms-image {
+    height: 40%;
+  }
+
+  .kms-title {
+    max-width: 95%;
+  }
+
+  .kms-title h1 {
+    font-size: 1.7rem;
+  }
+
+  .kms-title h2 {
+    font-size: 1.3rem;
+  }
+
+  .kms-title ul li {
+    font-size: 1.1rem;
+  }
+}
+
+/* 📌 반응형 - 작은 모바일 */
+@media (max-width: 480px) {
+  .kms-image {
+    height: 30%;
+  }
+
+  .kms-title h1 {
+    font-size: 1.5rem;
+  }
+
+  .kms-title h2 {
+    font-size: 1.2rem;
+  }
+
+  .kms-title ul li {
+    font-size: 1rem;
+  }
 }
