@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="kms-section">
       <div className="kms-image">
-        <img src="img/backimg.jpg" alt="프로필 이미지1" />
+        <img src="img/backimg.jpg" alt="프로필 이미지" />
       </div>
 
       <div className="kms-title">
